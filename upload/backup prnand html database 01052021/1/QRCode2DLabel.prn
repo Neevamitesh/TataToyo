@@ -1,0 +1,13 @@
+﻿CT~~CD,~CC^~CT~
+^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR5,5~SD21^JUS^LRN^CI0^XZ
+^XA
+^MMT
+^PW599
+^LL0200
+^LS0
+^FT121,180^A0N,24,26^FH\^FD$ $[SupplierName] $ $[Location]^FS
+^FT159,146^A0N,23,24^FH\^FD$[DATE] $ $ $ $[DrgRevNo]^FS
+^FT119,115^A0N,24,24^FH\^FD$[SCode] $ $[LABELPARTNO] $ 16 $^FS
+^FT245,90^BQN,2,2
+^FDLA,$[SCode] $ $[LABELPARTNO] $ 16 $ $[DATE] $ $ $ $[DrgRevNo] $ $[SupplierName] $ $[Location]^FS
+^PQ1,0,1,Y^XZ

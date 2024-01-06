@@ -1,0 +1,57 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-09-25 00:04:26 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 05:04:21 --> Severity: Notice --> Trying to get property of non-object D:\xampp\htdocs\TataToyo\application\controllers\Consignee.php 1046
+ERROR - 2020-09-25 05:04:21 --> Query error: Column 'PRID' cannot be null - Invalid query: INSERT INTO `CreateBatch` (`CMID`, `PID`, `CreatedAt`, `CreatedBy`, `Quantity`, `PRID`) VALUES ('21', '147660', '2020-09-25 05:04:20', '34', '50', NULL)
+ERROR - 2020-09-25 04:36:08 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 05:25:35 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 05:44:05 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 06:05:37 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 06:22:45 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 06:30:43 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-09-25 07:00:26 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 07:40:12 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 07:56:04 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 07:57:45 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 08:06:09 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 08:06:54 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-09-25 08:24:29 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-09-25 08:46:40 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 08:48:01 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 08:50:17 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 08:56:03 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 09:05:50 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 09:08:41 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-09-25 09:26:54 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 09:56:08 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 11:00:46 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 11:48:13 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 11:50:12 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 11:51:48 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 13:01:02 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 13:09:33 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 13:11:33 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 14:01:25 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 14:37:40 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 15:08:05 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 15:25:09 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-09-25 16:27:20 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 16:37:04 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 16:37:53 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 16:38:30 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 16:39:28 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 16:40:22 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 16:40:54 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 16:42:33 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 16:45:15 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 16:46:14 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 17:05:49 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-09-25 17:08:08 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-09-25 17:58:26 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 18:14:06 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 18:48:27 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 21:23:50 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 21:48:11 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 22:18:04 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-09-25 22:24:58 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-09-25 23:51:23 --> 404 Page Not Found: Sounds/sound6.ogg

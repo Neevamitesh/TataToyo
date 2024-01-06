@@ -1,0 +1,62 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-11-30 02:46:01 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 05:08:23 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 05:26:46 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 10:13:48 --> Severity: Error --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 2097152 bytes) D:\xampp\htdocs\TataToyo\application\views\User\products.php 109
+ERROR - 2020-11-30 10:15:05 --> Severity: Error --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 2113536 bytes) D:\xampp\htdocs\TataToyo\application\views\User\products.php 111
+ERROR - 2020-11-30 10:15:58 --> Severity: Error --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 11526112 bytes) D:\xampp\htdocs\TataToyo\system\core\Loader.php 996
+ERROR - 2020-11-30 06:06:40 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:08:12 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:09:19 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:09:44 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:10:06 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:10:28 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:10:32 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:10:52 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:11:13 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:11:40 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:11:49 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:16:38 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:17:04 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:18:03 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:18:26 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:19:03 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:20:48 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:22:07 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:23:39 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:28:29 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:28:33 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:30:19 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:36:52 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:37:28 --> 404 Page Not Found: Sounds/sound4.ogg
+ERROR - 2020-11-30 06:37:44 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:38:17 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:39:39 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:44:46 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:47:53 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:48:18 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:48:41 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:49:07 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:49:07 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:50:04 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:50:15 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:50:23 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 06:50:26 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 06:51:50 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 07:01:01 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 08:18:46 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 08:20:07 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 08:44:37 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 08:46:53 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 08:51:15 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 08:51:30 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 08:51:49 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 08:52:32 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 08:52:50 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-11-30 09:21:46 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 10:06:00 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 12:19:15 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 13:46:47 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 22:11:42 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-11-30 22:16:49 --> 404 Page Not Found: Consignee/1

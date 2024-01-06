@@ -1,0 +1,129 @@
+//controller
+ public function index($CMID = null)
+    {
+        // $category = $this->GetCategory->Category();
+        $consignees = $this->GetProducts->GetAllConsignee();
+        $keyNames = array();
+        $Values = array();
+        if(!empty($CMID)){
+            // $keyNames = $this->GD->GetKeyNames($CMID);
+            $Values = $this->GD->GetValues($CMID);
+            $keyNames = array_unique(array_column($Values->result(),'KeyName'));
+            // echo "<pre>";
+            // print_r (array_unique(array_column($Values->result(),'KeyName')));
+            // echo "</pre>";
+            
+            // echo "<pre>";
+            // print_r ($Values->result());
+            // echo "</pre>";
+            // exit;
+            
+        }
+        //  echo "<pre>";
+        //             print_r($consignees->result());
+        //             echo "</pre>";exit;
+        //$CMID = $this->input->post("consignee");
+        $Products = $this->CT->GetAllProducts(array(
+            $CMID
+        ));
+        //  echo "<pre>";
+        //             print_r($consignees->result());
+        //             echo "</pre>";exit;
+        //$CMID = $this->input->post("consignee");
+        $msg = $this->session->flashdata('msg');
+        $view = "User/products";
+        $data = array(
+            'page' => 'product',
+            'type' => 'addproduct',
+            'title' => 'Product',
+            // 'category' => $category,
+            'Products' => $Products,
+            'msg' => $msg,
+            'consignees' => $consignees,
+            'CMID' => $CMID,
+            'role' => $this->role,
+            'KeyNames' => $keyNames,
+            'Values' => $Values
+        );
+        // print_r($Products->result());
+        $this->Support($view, $data);
+    }
+
+
+    //model
+
+     public function GetKeyNames($CMID){
+            $this->db->select('KeyName');
+            $this->db->group_by('KeyName');
+            return $this->db->get_where("productdetail", ["CMID" => $CMID, "BitStatus" => 1]);
+        }
+
+        public function GetValues($CMID){
+            $this->db->select('KeyName, ValueData');
+            return $this->db->get_where("productdetail", ["CMID" => $CMID, "BitStatus" => 1]);
+        }
+
+
+    //view\
+    
+<div class="row">
+    <div class="col-lg-12 mx-auto" id="editproducts">
+        
+    </div>
+</div><!-- End Row-->
+<!-- <td>
+                                        <button type="button" class="btn btn-outline-info waves-effect waves-light m-1" onclick="viewProduct(<?= $pro->id; ?>)" title="Edit"> <i class="icon-pencil"></i> </button>
+                                        <button type="button" class="btn btn-outline-danger waves-effect waves-light m-1" title="Delete" data-target="#delmodal" onclick="DeleteProduct(<?= $pro->id; ?>)" data-toggle="modal"> <i class="fa fa-trash-o"></i> </button>
+                                    </td> -->
+<div class="row">
+    <div class="col-lg-12 mx-auto">
+        <div class="card">
+            <div class="card-header"><i class="fa fa-table"></i> Products</div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="" class="table default-datatable table-bordered">
+                        <thead>
+                            <tr>
+                                <!-- <th>Sr. No.</th> -->
+                                <?php
+                                    foreach($KeyNames as $val){
+                                        ?>
+                                            <th><?= $val; ?></th>
+                                        <?php
+                                    }
+                                ?>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <?php
+                            $c = 1;
+                            // for($i = 0; $i < count($Values); $i++){
+                                foreach($Values->result() as $val) {
+                                    if($c == 1){
+                                        ?>
+                                        <tr>
+                                        <?php
+                                    }
+                                    ?>
+                                        <td><?= $val->ValueData; ?></td>
+                                    <?php
+                                    if($c == count($KeyNames)){
+                                        $c = 1;
+                                        ?>
+                                        </tr>
+                                        <?php
+                                    }else{
+                                        $c++;
+                                    }
+                                    
+                                }
+                            // }
+                            ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- End Row-->
+

@@ -1,0 +1,57 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-03-30 00:44:44 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 03:26:55 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 03:48:02 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 03:58:04 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 04:27:11 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 05:26:12 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 05:27:27 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 05:35:07 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 05:38:47 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 05:41:54 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 05:48:29 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 05:49:21 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 05:53:09 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 05:55:10 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 05:58:58 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 06:29:30 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 06:46:18 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 07:01:15 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 07:44:16 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 07:50:01 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 07:53:34 --> 404 Page Not Found: Consignee/1
+ERROR - 2021-03-30 08:07:41 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 08:14:31 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 08:15:04 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 08:17:52 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 09:05:21 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 13:13:33 --> Severity: Notice --> Trying to get property of non-object D:\xampp\htdocs\TataToyo\application\controllers\Consignee.php 1078
+ERROR - 2021-03-30 13:13:34 --> Query error: Column 'PRID' cannot be null - Invalid query: INSERT INTO `CreateBatch` (`CMID`, `PID`, `CreatedAt`, `CreatedBy`, `Quantity`, `PRID`) VALUES ('8', '222977', '2021-03-30 13:13:32', '31', '20', NULL)
+ERROR - 2021-03-30 10:11:28 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 10:33:18 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 11:20:33 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 11:20:56 --> 404 Page Not Found: Consignee/1
+ERROR - 2021-03-30 11:32:56 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 11:38:14 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 12:47:52 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 13:05:23 --> 404 Page Not Found: Consignee/1
+ERROR - 2021-03-30 13:11:28 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 13:29:21 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 13:29:50 --> 404 Page Not Found: Consignee/1
+ERROR - 2021-03-30 13:37:07 --> 404 Page Not Found: Consignee/1
+ERROR - 2021-03-30 14:00:58 --> 404 Page Not Found: Consignee/1
+ERROR - 2021-03-30 14:14:49 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 14:15:52 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 14:51:25 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 15:02:18 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 15:04:59 --> 404 Page Not Found: Consignee/1
+ERROR - 2021-03-30 17:01:38 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 17:30:28 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 18:29:57 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 19:33:55 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 21:19:22 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 21:20:46 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 22:03:27 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 22:27:13 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2021-03-30 23:01:28 --> 404 Page Not Found: Consignee/1

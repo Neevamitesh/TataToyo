@@ -1,0 +1,116 @@
+Database:
+
+proc spconsigneemaster
+
+Add Column
+c.consigneename  `Name`
+
+
+Consignee controller (ADD)
+
+require 'vendor/autoload.php';
+
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+
+
+
+           private function CreateExcel(Array $excelData ,$consigneeInfo = null){
+            if(count($excelData) > 0){
+                $dir = $this->GetDirectory('ExcelFiles');
+                $spreadSheet = new Spreadsheet();
+                $sheet = $spreadSheet->getActiveSheet();
+                $header = array_keys(current($excelData));
+                foreach($header as $key => $title){
+                    $title = str_replace(
+                        [
+                            '$[',
+                            ']'
+                        ],
+                        [
+                            '',
+                            ''
+                        ],
+                        $title
+                    );
+                    $sheet->setCellValueByColumnAndRow($key + 1, 1 , $title);
+                }
+                $rowIndex = 1;
+                foreach($excelData as $excelRows){
+                    $colIndex = 1;$rowIndex++;
+                    foreach($excelRows as $val){ 
+                        $sheet->setCellValueByColumnAndRow($colIndex++,$rowIndex, $val);    
+                    }
+                }
+                $writer = new \PhpOffice\PhpSpreadsheet\Writer\Xls($spreadSheet);
+                
+                $fileName = "{$dir}/{$consigneeInfo->Name}.xls";
+                $writer->save($fileName);
+                return base_url($fileName);
+            }
+        }
+
+
+        public function GetDirectory($mainFolderName){
+            $Base = "{$mainFolderName}/".date('Y').'/'.date('M').'/'.date('d');
+            is_dir("{$mainFolderName}")?:mkdir("{$mainFolderName}");
+            is_dir("{$mainFolderName}/".date('Y'))?:mkdir("{$mainFolderName}/".date('Y'));
+            is_dir("{$mainFolderName}/".date('Y').'/'.date('M'))?:mkdir("{$mainFolderName}/".date('Y').'/'.date('M'));
+            is_dir($Base)?:mkdir($Base);
+            return $Base;
+        }
+
+
+Edit LabelPrint function 
+$ExcelData = [];
+
+$ExcelData[] = $Main;
+
+$excelFilePath = $this->CreateExcel($ExcelData,$Info); # For generate Excel file 
+
+
+
+Create Batch view
+
+ $(function(){
+        $('#GetExcel').click(async function(){
+            var Base = $('#BaseURL').html();
+            var Consignee = $("#Consignee").val();
+            var Product = $("#Product").val();
+            var Qty = $("#Qty").val();
+            var AddOns = $('.AddOnsOpts').map(function () {
+                return $(this).val();
+            }).get();
+            if(Base != "" && Consignee != "" && Product != "" && Qty != ""){
+                $.ajax({
+                    type: 'POST',
+                    url: Base + 'Consignee/PrintLable',
+                    data: {
+                        Consignee: Consignee,
+                        Product: Product,
+                        Qty: Qty,
+                        AddOns: AddOns
+                    },
+                    success: function (data) {
+                        var Res = JSON.parse(data);
+                        if (Res.Res == 'true') {
+                            window.location.href = Res.Excel;
+                        } else {
+                            $('#BatchMsg-Err').html(Res.Msg);
+                        }
+                    }
+                });
+            }else{
+                alert('Please fill all the fileds');
+            }
+        });
+    });
+
+<button type="button" id="GetExcel" class="btn btn-success shadow-success pull-right mr-3">Download</button>
+
+  <div class="col-12">
+                            <h4 id="#BatchMsg-Err" class="text-center text-danger">
+                                
+                            </h4>
+                        </div>
+

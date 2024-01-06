@@ -1,0 +1,37 @@
+$(function(){
+    $(".addmember").click(function(){
+      var mem = $(".member").html();
+      $(".members").append(mem);
+    });
+    $(document).on("click",".rmmem",function(){      
+      $(this).closest('.main').remove();
+    });
+    $("input[type='number']").attr('min',0);
+    $("#question").validate({
+        rules:{
+          contact:{
+            number:true,
+            maxlength:10,
+            minlength:10,
+            required:true
+          },
+          email:{
+            email:true,
+            required:true
+          },
+          name:{
+            required:true,
+            minlength:2
+          },
+          income:{
+            number:true,
+          },      
+          Age:{
+            number:true,
+          },
+          uage:{
+            number:true
+          }
+        }
+      });
+  });

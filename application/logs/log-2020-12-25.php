@@ -1,0 +1,97 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-12-25 01:29:07 --> Severity: Warning --> unlink(D:\xampp\tmp\ci_session55j0ubjm728fg3v07p4c1e0216qfeq61): Resource temporarily unavailable D:\xampp\htdocs\TataToyo\system\libraries\Session\drivers\Session_files_driver.php 320
+ERROR - 2020-12-25 01:29:08 --> Severity: Warning --> session_destroy(): Session object destruction failed D:\xampp\htdocs\TataToyo\system\libraries\Session\Session.php 702
+ERROR - 2020-12-25 01:29:08 --> Severity: Warning --> unlink(D:\xampp\tmp\ci_session55j0ubjm728fg3v07p4c1e0216qfeq61): Resource temporarily unavailable D:\xampp\htdocs\TataToyo\system\libraries\Session\drivers\Session_files_driver.php 320
+ERROR - 2020-12-25 01:29:09 --> Severity: Warning --> session_destroy(): Session object destruction failed D:\xampp\htdocs\TataToyo\system\libraries\Session\Session.php 702
+ERROR - 2020-12-25 01:01:43 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 01:02:23 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 01:03:07 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 01:03:42 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 01:25:46 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 03:24:46 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 03:31:41 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 09:19:33 --> Severity: Notice --> Trying to get property of non-object D:\xampp\htdocs\TataToyo\application\controllers\Consignee.php 1049
+ERROR - 2020-12-25 09:19:33 --> Query error: Column 'PRID' cannot be null - Invalid query: INSERT INTO `CreateBatch` (`CMID`, `PID`, `CreatedAt`, `CreatedBy`, `Quantity`, `PRID`) VALUES ('5', '207644', '2020-12-25 09:19:32', '33', '23', NULL)
+ERROR - 2020-12-25 04:52:15 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 05:00:41 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-12-25 05:07:34 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 05:29:36 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 06:08:04 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 06:27:04 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 06:36:57 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 06:37:49 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 07:18:58 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 07:48:15 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 07:53:00 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 08:01:39 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 08:04:47 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 08:17:33 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 08:51:58 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 08:54:43 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 08:57:04 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 09:02:36 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 09:20:16 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 09:21:17 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 09:22:47 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 09:22:47 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 09:23:07 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-12-25 09:24:15 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-12-25 09:39:37 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 09:42:40 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 09:44:56 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 09:51:53 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 09:55:57 --> 404 Page Not Found: Tatatoyo/home
+ERROR - 2020-12-25 09:56:38 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 09:58:09 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 10:39:43 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 10:40:51 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 10:41:23 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 10:47:40 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:06:32 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:07:50 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:08:52 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:16:54 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:17:31 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:18:11 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:19:03 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:19:37 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:20:23 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:20:54 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:21:50 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:22:31 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:23:16 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:31:18 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:50:12 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:50:42 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:51:34 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:52:02 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:52:31 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-12-25 11:53:22 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:53:32 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:54:01 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-12-25 11:56:39 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 11:56:52 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 12:10:40 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 12:28:10 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 12:37:13 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 14:23:42 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 15:06:33 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-12-25 15:18:10 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 16:47:02 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 17:29:24 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 17:33:33 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-12-25 17:33:57 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-12-25 17:44:15 --> 404 Page Not Found: Consignee/1
+ERROR - 2020-12-25 17:55:10 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 17:59:38 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 18:11:53 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 18:14:06 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 18:49:19 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 18:57:17 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 19:39:16 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 20:24:09 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 20:35:40 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 21:27:40 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 22:57:21 --> 404 Page Not Found: Sounds/sound6.ogg
+ERROR - 2020-12-25 23:39:10 --> 404 Page Not Found: Sounds/sound6.ogg
